@@ -1,0 +1,32 @@
+/* start contacts section style */
+.container-fluid-custome {
+  background-color: #403d39;
+  height: 38px;
+}
+.container-fluid-custome .contact i {
+  margin: 10px 5px;
+  padding-left: 5px;
+  color: #eb5e28;
+  vertical-align: -6px;
+  font-size: 16px;
+}
+.container-fluid-custome .contact span {
+  margin-left: 5px;
+  color: #ccc5b9;
+  vertical-align: 3px;
+}
+.container-fluid-custome .social-media {
+  direction: ltr;
+  vertical-align: -0px;
+}
+.container-fluid-custome .social-media a {
+  direction: ltr;
+  color: #ccc5b9;
+  font-size: 19px;
+  padding: 5px 12px;
+  vertical-align: -7px;
+}
+.container-fluid-custome .social-media a:hover {
+  background-color: #eb5e28;
+}
+/* finish contacts section style */

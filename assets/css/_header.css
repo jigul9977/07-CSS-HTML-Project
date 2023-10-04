@@ -1,0 +1,58 @@
+/* start header section style */
+.img-header {
+  min-height: 100vh;
+  display: block;
+}
+.header-title {
+  color: #252422;
+  max-width: 450px;
+  margin: 300px 290px;
+}
+.header-title a {
+  color: #fffcf2;
+  background-color: #eb5e28;
+  margin-top: 15px;
+  margin-left: 20px;
+  padding: 8px 12px;
+  float: left;
+}
+@media screen and (max-width: 1080px) {
+  .header-title {
+    background-color: rgba(64, 61, 57, 0.5);
+    color: #fffcf2;
+    border-radius: 5px;
+    width: 100%;
+    margin: 0 0;
+    margin: 5px;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .header-title a {
+    margin-left: 5px;
+  }
+  .img-header {
+    min-height: 100%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .header-title {
+    max-width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .header-title h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .header-title h3 {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .header-title a {
+    font-size: 14px;
+    margin-left: 5px;
+  }
+}

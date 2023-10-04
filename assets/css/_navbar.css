@@ -1,0 +1,57 @@
+/* start navbar section style */
+.active {
+  border-bottom: 2px dashed #eb5e28;
+}
+.navbar {
+  background-color: #ccc5b9;
+  overflow: hidden;
+  position: sticky;
+  top: -1px;
+  z-index: 999;
+}
+.home-icon {
+  color: #eb5e28;
+  font-size: 25px;
+}
+.navbar a {
+  line-height: 35px;
+  color: #252422;
+  float: right;
+  text-align: center;
+  padding: 15px 15px;
+  font-size: 16px;
+}
+a.menu-icon {
+  display: none;
+}
+.navbar a:hover {
+  /* background-color: #EB5E28; */
+  border-bottom: 2px dashed #eb5e28;
+}
+@media screen and (max-width: 710px) {
+  .navbar a:not(:first-child) {
+    display: none;
+  }
+  .navbar a.menu-icon {
+    display: block;
+    float: left;
+  }
+  .navbar.responsive-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .navbar.responsive-menu a.menu-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .navbar.responsive-menu a {
+    float: none;
+    display: block;
+    text-align: right;
+  }
+}
+/* end navbar section style */
